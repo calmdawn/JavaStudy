@@ -4,7 +4,7 @@ public class Player {
     public static final int BEGINNER_LEVEL = 1;
     public static final int ADVANCED_LEVEL = 2;
     public static final int SUPER_LEVEL = 3;
-    BeginnerLevel currentLevel;
+    Level currentLevel;
     public Player() {
         currentLevel = new BeginnerLevel();
     }

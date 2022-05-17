@@ -1,6 +1,6 @@
 package sub_4_3MainBoard;
 
-public class AdvancedLevel extends BeginnerLevel{
+public class AdvancedLevel extends Level{
 
     @Override
     public void jump() {

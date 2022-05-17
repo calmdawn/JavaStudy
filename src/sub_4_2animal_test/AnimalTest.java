@@ -34,11 +34,11 @@ public class AnimalTest {
     private void testDownCasting(ArrayList<Animal> animalList) {
         for(Animal animal : animalList){
             if(animal instanceof Human){
-                System.out.println("사람이 책을 읽습니다.");
+                ((Human)animal).act();
             }else if(animal instanceof Tiger){
-                System.out.println("호랑이가 사냥을 합니다");
+                ((Tiger) animal).act();
             }else if(animal instanceof Eagle){
-                System.out.println("독수리가 날개를 쭉 펴고 멀리 날아갑니다.");
+                ((Eagle) animal).act();
             }
         }
     }

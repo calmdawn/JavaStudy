@@ -1,6 +1,6 @@
 package sub_4_3MainBoard;
 
-public class SuperLevel extends BeginnerLevel{
+public class SuperLevel extends Level{
     @Override
     public void jump() {
         System.out.println("아주 높이 jump 합니다.");
