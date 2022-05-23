@@ -1,4 +1,4 @@
-package sub_4_3MainBoard;
+package sub_4_3main_board;
 
 public class MainBoard {
     public static void main(String[] args) {

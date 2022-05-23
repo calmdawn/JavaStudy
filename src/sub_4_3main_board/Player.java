@@ -1,4 +1,4 @@
-package sub_4_3MainBoard;
+package sub_4_3main_board;
 
 public class Player {
     public static final int BEGINNER_LEVEL = 1;
