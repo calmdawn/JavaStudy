@@ -27,6 +27,7 @@ public class SchedulerTest {
         if(scheduler != null){
             scheduler.getNextCall();
             scheduler.sendCallToAgent();
+            scheduler.dMethod();
         }
 
     }

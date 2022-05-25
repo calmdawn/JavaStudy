@@ -10,7 +10,12 @@ public abstract class PlayerLevel {
 
     public abstract void showLevelMessage();
 
-    public void go(int a) {
-
+    public final void go(int time) {
+        showLevelMessage();
+        run();
+        for (int i = 0; i < time; i++) {
+            jump();
+        }
+        turn();
     }
 }

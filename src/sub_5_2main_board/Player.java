@@ -11,12 +11,7 @@ public class Player {
     }
 
     public void play(int time) {
-        currentLevel.showLevelMessage();
-        currentLevel.run();
-        for (int i = 0; i < time; i++) {
-            currentLevel.jump();
-        }
-        currentLevel.turn();
+        currentLevel.go(time);
     }
 
     public void upgradeLevel(PlayerLevel level) {
